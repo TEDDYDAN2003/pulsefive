@@ -1,0 +1,29 @@
+PULSEFIVE | GOLD SESSION LAB
+============================
+PAPER ONLY. The trained strategy failed its validation screens in every session.
+It aims for $2 total per basket, not a guaranteed $2. Do not fund it on these results.
+
+1. Extract this whole ZIP into a fresh folder. Double-click Session-Report.html
+   to read the actual held-out November results. No installation is needed.
+2. Choose ONE source route:
+   - NO GIT: open the PulseFive folder included here.
+   - WITH GIT: open PowerShell next to PulseFive.bundle and run
+       git clone -b main .\PulseFive.bundle PulseFive-local
+       cd PulseFive-local
+     The bundle includes the complete independent main history. No hosting account,
+     existing trading repository, credential or network access is needed to clone it.
+3. With 64-bit Python 3.11 installed, open PowerShell in that source directory:
+       py -3.11 -m venv .venv
+       .\.venv\Scripts\python.exe -m pip install -e .
+       .\.venv\Scripts\python.exe -m pulsefive status
+       .\.venv\Scripts\python.exe -m pulsefive example
+   Package installation may download dependencies. The built-in examples use
+   invented prices and verify order mechanics, not profitability.
+4. READ README.md before collecting live quotes. The optional Windows MT5
+   demo reader only simulates executions and has no native order transport.
+   Start a fresh prospective paper log; do not tune the November test again.
+   Full numerical reproduction: docs/REPRODUCE.md in the source directory.
+
+Main commit: 245ba341ba22e84663e59463c2c33830471f5f21
+Frozen model SHA-256: 14ee65478a3987cec09e12680f4d09beb2fac1a82fcb2791f2ba0e91772c53f9
+No raw tick downloads, passwords, terminal account or prior Hull project bundled.

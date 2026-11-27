@@ -1,0 +1,22 @@
+{
+  "base": {
+    "raw": 3847181,
+    "observed": 2747332,
+    "matching_ledgers": {
+      "baseline": 185,
+      "challenger": 72,
+      "release": 0
+    },
+    "matching_cash_and_drawdowns": true
+  },
+  "stress": {
+    "raw": 3847181,
+    "observed": 2747332,
+    "matching_ledgers": {
+      "baseline": 164,
+      "challenger": 80,
+      "release": 0
+    },
+    "matching_cash_and_drawdowns": true
+  }
+}

@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.zip binary
+*.bundle binary
+*.gz binary
+research/engineering-*/batches.csv -text
+research/evaluation-*/batches.csv -text
+research/study/confirm-*/challenger.csv -text

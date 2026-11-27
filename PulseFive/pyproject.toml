@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pulsefive-scalper"
+version = "0.2.0"
+description = "Quote-driven five-limit basket research and read-only forward paper for MT5 gold"
+requires-python = ">=3.11"
+dependencies = ["tzdata>=2024.1; platform_system=='Windows'"]
+[project.optional-dependencies]
+mt5 = ["MetaTrader5>=5.0.45,<6; platform_system=='Windows'"]
+research = ["numpy>=1.26,<2.5", "pandas>=2.1,<3", "numba>=0.61,<0.67"]
+[project.scripts]
+pulsefive = "pulsefive.cli:main"
+[tool.setuptools]
+packages = ["pulsefive", "research"]
+[tool.setuptools.package-data]
+pulsefive = ["model_v1.json"]
+research = ["sources.json", "tick-manifest.json", "cache-hashes.json"]

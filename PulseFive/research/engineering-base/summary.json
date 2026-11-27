@@ -1,0 +1,45 @@
+{
+  "start": "2026-10-01",
+  "end": "2026-10-16",
+  "days": 12,
+  "scenario": "base",
+  "starting_balance": 1000,
+  "ending_balance": 817.74,
+  "net": -182.26,
+  "attempts": 195,
+  "filled_batches": 148,
+  "full_five": 50,
+  "tickets_submitted": 761,
+  "tickets_filled": 463,
+  "profitable_batches": 19,
+  "realized_at_least_2": 7,
+  "target_intents": 9,
+  "profit_factor": 0.14,
+  "max_mark_to_market_drawdown": 182.26,
+  "exit_reasons": {
+    "stale_quote": 48,
+    "broker_exit": 82,
+    "no_fill": 36,
+    "daily_loss": 4,
+    "profit_giveback": 7,
+    "basket_target": 9,
+    "stalled": 5,
+    "flow_reversal": 4
+  },
+  "cancel_reasons": {
+    "stale_quote": 86,
+    "unlikely_reach": 195,
+    "runaway": 18,
+    "opposite_flow": 16,
+    "daily_loss": 4,
+    "broker_exit": 10,
+    "basket_target": 3
+  },
+  "server_events": {
+    "fill_during_cancel": 34,
+    "native_stops": 200
+  },
+  "raw_rows_in_processed_windows": 732312,
+  "occupied_poll_bins": 496083,
+  "archive_sha256": "f9066c09dc1d8d6e55b5a89dda37f33994fd69a605c96eccf29ead9c05278feb"
+}

@@ -1,0 +1,225 @@
+{
+  "raw_ticks": 3847181,
+  "observed_ticks": 2747332,
+  "dates": [
+    "2026-11-02",
+    "2026-11-03",
+    "2026-11-04",
+    "2026-11-05",
+    "2026-11-06",
+    "2026-11-09",
+    "2026-11-10",
+    "2026-11-11",
+    "2026-11-12",
+    "2026-11-13",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "scalar_parity_observations": 14000,
+  "policies": {
+    "baseline": {
+      "attempts": 185,
+      "filled": 142,
+      "full": 63,
+      "net": -210.837,
+      "wins": 18,
+      "realized_target": 4,
+      "pf": 0.1141,
+      "ending_balance": 789.163,
+      "max_drawdown": 211.127,
+      "sessions": {
+        "Asia": {
+          "attempts": 48,
+          "filled": 33,
+          "full": 14,
+          "net": -37.634,
+          "wins": 7,
+          "realized_target": 2,
+          "pf": 0.2659
+        },
+        "London": {
+          "attempts": 48,
+          "filled": 40,
+          "full": 15,
+          "net": -60.468,
+          "wins": 4,
+          "realized_target": 0,
+          "pf": 0.0339
+        },
+        "London-NY": {
+          "attempts": 45,
+          "filled": 37,
+          "full": 18,
+          "net": -51.859,
+          "wins": 7,
+          "realized_target": 2,
+          "pf": 0.1803
+        },
+        "New York": {
+          "attempts": 31,
+          "filled": 23,
+          "full": 12,
+          "net": -43.326,
+          "wins": 0,
+          "realized_target": 0,
+          "pf": 0.0
+        },
+        "Sydney": {
+          "attempts": 13,
+          "filled": 9,
+          "full": 4,
+          "net": -17.55,
+          "wins": 0,
+          "realized_target": 0,
+          "pf": 0.0
+        }
+      },
+      "fill_days": {
+        "Asia": 12,
+        "London": 12,
+        "London-NY": 12,
+        "New York": 9,
+        "Sydney": 4
+      },
+      "server_events": {
+        "fill_during_cancel": 32,
+        "native_stops": 260
+      }
+    },
+    "challenger": {
+      "attempts": 72,
+      "filled": 8,
+      "full": 1,
+      "net": -4.073,
+      "wins": 2,
+      "realized_target": 0,
+      "pf": 0.3036,
+      "ending_balance": 995.927,
+      "max_drawdown": 6.327,
+      "sessions": {
+        "Asia": {
+          "attempts": 25,
+          "filled": 2,
+          "full": 0,
+          "net": 1.25,
+          "wins": 1,
+          "realized_target": 0,
+          "pf": 84.3333
+        },
+        "London": {
+          "attempts": 22,
+          "filled": 1,
+          "full": 0,
+          "net": 0.511,
+          "wins": 1,
+          "realized_target": 0,
+          "pf": null
+        },
+        "London-NY": {
+          "attempts": 7,
+          "filled": 2,
+          "full": 0,
+          "net": -2.097,
+          "wins": 0,
+          "realized_target": 0,
+          "pf": 0.0
+        },
+        "New York": {
+          "attempts": 18,
+          "filled": 3,
+          "full": 1,
+          "net": -3.737,
+          "wins": 0,
+          "realized_target": 0,
+          "pf": 0.0
+        },
+        "Sydney": {
+          "attempts": 0,
+          "filled": 0,
+          "full": 0,
+          "net": 0.0,
+          "wins": 0,
+          "realized_target": 0,
+          "pf": null
+        }
+      },
+      "fill_days": {
+        "Asia": 2,
+        "London": 1,
+        "London-NY": 2,
+        "New York": 3,
+        "Sydney": 0
+      },
+      "server_events": {
+        "native_stops": 2,
+        "fill_during_cancel": 1
+      }
+    },
+    "release": {
+      "attempts": 0,
+      "filled": 0,
+      "full": 0,
+      "net": 0.0,
+      "wins": 0,
+      "realized_target": 0,
+      "pf": null,
+      "ending_balance": 1000.0,
+      "max_drawdown": 0.0,
+      "sessions": {
+        "Asia": {
+          "attempts": 0,
+          "filled": 0,
+          "full": 0,
+          "net": 0.0,
+          "wins": 0,
+          "realized_target": 0,
+          "pf": null
+        },
+        "London": {
+          "attempts": 0,
+          "filled": 0,
+          "full": 0,
+          "net": 0.0,
+          "wins": 0,
+          "realized_target": 0,
+          "pf": null
+        },
+        "London-NY": {
+          "attempts": 0,
+          "filled": 0,
+          "full": 0,
+          "net": 0.0,
+          "wins": 0,
+          "realized_target": 0,
+          "pf": null
+        },
+        "New York": {
+          "attempts": 0,
+          "filled": 0,
+          "full": 0,
+          "net": 0.0,
+          "wins": 0,
+          "realized_target": 0,
+          "pf": null
+        },
+        "Sydney": {
+          "attempts": 0,
+          "filled": 0,
+          "full": 0,
+          "net": 0.0,
+          "wins": 0,
+          "realized_target": 0,
+          "pf": null
+        }
+      },
+      "fill_days": {
+        "Asia": 0,
+        "London": 0,
+        "London-NY": 0,
+        "New York": 0,
+        "Sydney": 0
+      },
+      "server_events": {}
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "raw_ticks": 6551128,
+  "observed_ticks": 4678605,
+  "dates": [
+    "2026-09-01",
+    "2026-09-02",
+    "2026-09-03",
+    "2026-09-04",
+    "2026-09-07",
+    "2026-09-08",
+    "2026-09-09",
+    "2026-09-10",
+    "2026-09-11",
+    "2026-09-14",
+    "2026-09-15",
+    "2026-09-16",
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-24",
+    "2026-09-25",
+    "2026-09-28",
+    "2026-09-29",
+    "2026-09-30"
+  ],
+  "scalar_parity_observations": 14000,
+  "policies": {
+    "challenger": {
+      "attempts": 41,
+      "filled": 5,
+      "full": 2,
+      "net": -11.336,
+      "wins": 0,
+      "realized_target": 0,
+      "pf": 0.0,
+      "ending_balance": 988.664,
+      "max_drawdown": 11.44,
+      "sessions": {
+        "Asia": {
+          "attempts": 8,
+          "filled": 2,
+          "full": 2,
+          "net": -8.278,
+          "wins": 0,
+          "realized_target": 0,
+          "pf": 0.0
+        },
+        "London": {
+          "attempts": 6,
+          "filled": 0,
+          "full": 0,
+          "net": 0.0,
+          "wins": 0,
+          "realized_target": 0,
+          "pf": null
+        },
+        "London-NY": {
+          "attempts": 9,
+          "filled": 0,
+          "full": 0,
+          "net": 0.0,
+          "wins": 0,
+          "realized_target": 0,
+          "pf": null
+        },
+        "New York": {
+          "attempts": 16,
+          "filled": 2,
+          "full": 0,
+          "net": -2.265,
+          "wins": 0,
+          "realized_target": 0,
+          "pf": 0.0
+        },
+        "Sydney": {
+          "attempts": 2,
+          "filled": 1,
+          "full": 0,
+          "net": -0.793,
+          "wins": 0,
+          "realized_target": 0,
+          "pf": 0.0
+        }
+      },
+      "fill_days": {
+        "Asia": 2,
+        "London": 0,
+        "London-NY": 0,
+        "New York": 2,
+        "Sydney": 1
+      },
+      "server_events": {
+        "fill_during_cancel": 10,
+        "native_stops": 12
+      }
+    }
+  }
+}

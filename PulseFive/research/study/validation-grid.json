@@ -1,0 +1,972 @@
+{
+  "Asia": [
+    {
+      "key": "shallow-p50",
+      "style": "shallow",
+      "threshold": -1.1483517275972552,
+      "quantile": 0.5,
+      "validation": {
+        "base": {
+          "attempts": 84,
+          "filled": 65,
+          "fill_days": 21,
+          "net": -85.686,
+          "pf": 0.144381,
+          "mean": -4.080285714285715,
+          "lcb": -5.848770772441442,
+          "gross_gain": 14.459,
+          "gross_loss": 100.14499999999995
+        },
+        "stress": {
+          "attempts": 20,
+          "filled": 15,
+          "fill_days": 5,
+          "net": -33.988,
+          "pf": 0.121689,
+          "mean": -1.6184761904761904,
+          "lcb": -4.0211627131720045,
+          "gross_gain": 4.709,
+          "gross_loss": 38.696999999999996
+        }
+      },
+      "validation_pass": false,
+      "score": -4.080285714285715
+    },
+    {
+      "key": "shallow-p80",
+      "style": "shallow",
+      "threshold": -1.006910846968723,
+      "quantile": 0.8,
+      "validation": {
+        "base": {
+          "attempts": 82,
+          "filled": 62,
+          "fill_days": 21,
+          "net": -93.023,
+          "pf": 0.058986,
+          "mean": -4.429666666666667,
+          "lcb": -6.035414130675449,
+          "gross_gain": 5.8309999999999995,
+          "gross_loss": 98.85399999999996
+        },
+        "stress": {
+          "attempts": 20,
+          "filled": 15,
+          "fill_days": 5,
+          "net": -25.889,
+          "pf": 0.187618,
+          "mean": -1.232809523809524,
+          "lcb": -3.214296373942239,
+          "gross_gain": 5.978999999999999,
+          "gross_loss": 31.868000000000002
+        }
+      },
+      "validation_pass": false,
+      "score": -4.429666666666667
+    },
+    {
+      "key": "shallow-p95",
+      "style": "shallow",
+      "threshold": -0.8718620769785198,
+      "quantile": 0.95,
+      "validation": {
+        "base": {
+          "attempts": 50,
+          "filled": 24,
+          "fill_days": 14,
+          "net": -28.537,
+          "pf": 0.020928,
+          "mean": -1.358904761904762,
+          "lcb": -2.2804712513249967,
+          "gross_gain": 0.61,
+          "gross_loss": 29.146999999999995
+        },
+        "stress": {
+          "attempts": 17,
+          "filled": 9,
+          "fill_days": 5,
+          "net": -17.716,
+          "pf": 0.0,
+          "mean": -0.8436190476190477,
+          "lcb": -1.8846250302228431,
+          "gross_gain": 0.0,
+          "gross_loss": 17.716
+        }
+      },
+      "validation_pass": false,
+      "score": -1.358904761904762
+    },
+    {
+      "key": "patient-p50",
+      "style": "patient",
+      "threshold": -0.5029036565079569,
+      "quantile": 0.5,
+      "validation": {
+        "base": {
+          "attempts": 84,
+          "filled": 25,
+          "fill_days": 15,
+          "net": -32.61,
+          "pf": 0.122703,
+          "mean": -1.552857142857143,
+          "lcb": -2.6922861113361716,
+          "gross_gain": 4.561000000000001,
+          "gross_loss": 37.171
+        },
+        "stress": {
+          "attempts": 20,
+          "filled": 4,
+          "fill_days": 4,
+          "net": -13.209,
+          "pf": 0.0,
+          "mean": -0.629,
+          "lcb": -1.4879901865465825,
+          "gross_gain": 0.0,
+          "gross_loss": 13.209
+        }
+      },
+      "validation_pass": false,
+      "score": -1.552857142857143
+    },
+    {
+      "key": "patient-p80",
+      "style": "patient",
+      "threshold": -0.28497423061757254,
+      "quantile": 0.8,
+      "validation": {
+        "base": {
+          "attempts": 80,
+          "filled": 19,
+          "fill_days": 14,
+          "net": -12.794,
+          "pf": 0.137638,
+          "mean": -0.6092380952380951,
+          "lcb": -1.374061332211968,
+          "gross_gain": 2.042,
+          "gross_loss": 14.835999999999999
+        },
+        "stress": {
+          "attempts": 20,
+          "filled": 3,
+          "fill_days": 3,
+          "net": -8.885,
+          "pf": 0.0,
+          "mean": -0.4230952380952381,
+          "lcb": -1.0745295495744047,
+          "gross_gain": 0.0,
+          "gross_loss": 8.885
+        }
+      },
+      "validation_pass": false,
+      "score": -0.6092380952380951
+    },
+    {
+      "key": "patient-p95",
+      "style": "patient",
+      "threshold": -0.10109667454236727,
+      "quantile": 0.95,
+      "validation": {
+        "base": {
+          "attempts": 43,
+          "filled": 3,
+          "fill_days": 3,
+          "net": 0.171,
+          "pf": 1.275806,
+          "mean": 0.008142857142857144,
+          "lcb": -0.11789194278365922,
+          "gross_gain": 0.791,
+          "gross_loss": 0.62
+        },
+        "stress": {
+          "attempts": 14,
+          "filled": 1,
+          "fill_days": 1,
+          "net": 0.038,
+          "pf": null,
+          "mean": 0.0018095238095238095,
+          "lcb": -0.0029857142857142843,
+          "gross_gain": 0.038,
+          "gross_loss": 0.0
+        }
+      },
+      "validation_pass": false,
+      "score": 0.0018095238095238095
+    }
+  ],
+  "London": [
+    {
+      "key": "shallow-p50",
+      "style": "shallow",
+      "threshold": -1.0962288550396027,
+      "quantile": 0.5,
+      "validation": {
+        "base": {
+          "attempts": 84,
+          "filled": 63,
+          "fill_days": 21,
+          "net": -101.282,
+          "pf": 0.03803,
+          "mean": -4.8229523809523815,
+          "lcb": -6.373923973745178,
+          "gross_gain": 4.004,
+          "gross_loss": 105.28599999999999
+        },
+        "stress": {
+          "attempts": 18,
+          "filled": 7,
+          "fill_days": 3,
+          "net": -16.709,
+          "pf": 0.0,
+          "mean": -0.7956666666666669,
+          "lcb": -2.008901826576758,
+          "gross_gain": 0.0,
+          "gross_loss": 16.709000000000003
+        }
+      },
+      "validation_pass": false,
+      "score": -4.8229523809523815
+    },
+    {
+      "key": "shallow-p80",
+      "style": "shallow",
+      "threshold": -0.9314343408666348,
+      "quantile": 0.8,
+      "validation": {
+        "base": {
+          "attempts": 81,
+          "filled": 54,
+          "fill_days": 21,
+          "net": -59.138,
+          "pf": 0.140923,
+          "mean": -2.8160952380952384,
+          "lcb": -4.0715186710048386,
+          "gross_gain": 9.701,
+          "gross_loss": 68.83899999999998
+        },
+        "stress": {
+          "attempts": 13,
+          "filled": 7,
+          "fill_days": 4,
+          "net": -14.685,
+          "pf": 0.004272,
+          "mean": -0.6992857142857142,
+          "lcb": -1.7577935049046687,
+          "gross_gain": 0.063,
+          "gross_loss": 14.748
+        }
+      },
+      "validation_pass": false,
+      "score": -2.8160952380952384
+    },
+    {
+      "key": "shallow-p95",
+      "style": "shallow",
+      "threshold": -0.8037163773267266,
+      "quantile": 0.95,
+      "validation": {
+        "base": {
+          "attempts": 26,
+          "filled": 16,
+          "fill_days": 12,
+          "net": -14.963,
+          "pf": 0.254385,
+          "mean": -0.7125238095238096,
+          "lcb": -1.776624727266917,
+          "gross_gain": 5.1049999999999995,
+          "gross_loss": 20.067999999999998
+        },
+        "stress": {
+          "attempts": 5,
+          "filled": 2,
+          "fill_days": 2,
+          "net": -2.976,
+          "pf": 0.0,
+          "mean": -0.1417142857142857,
+          "lcb": -0.47188557652741936,
+          "gross_gain": 0.0,
+          "gross_loss": 2.976
+        }
+      },
+      "validation_pass": false,
+      "score": -0.7125238095238096
+    },
+    {
+      "key": "patient-p50",
+      "style": "patient",
+      "threshold": -0.4283183452390559,
+      "quantile": 0.5,
+      "validation": {
+        "base": {
+          "attempts": 84,
+          "filled": 20,
+          "fill_days": 13,
+          "net": -18.881,
+          "pf": 0.026351,
+          "mean": -0.8990952380952381,
+          "lcb": -1.4959196301853772,
+          "gross_gain": 0.511,
+          "gross_loss": 19.392
+        },
+        "stress": {
+          "attempts": 18,
+          "filled": 4,
+          "fill_days": 3,
+          "net": -3.489,
+          "pf": 0.0,
+          "mean": -0.16614285714285715,
+          "lcb": -0.46162786086296037,
+          "gross_gain": 0.0,
+          "gross_loss": 3.489
+        }
+      },
+      "validation_pass": false,
+      "score": -0.8990952380952381
+    },
+    {
+      "key": "patient-p80",
+      "style": "patient",
+      "threshold": -0.24657504269714692,
+      "quantile": 0.8,
+      "validation": {
+        "base": {
+          "attempts": 83,
+          "filled": 16,
+          "fill_days": 11,
+          "net": -13.949,
+          "pf": 0.0,
+          "mean": -0.6642380952380952,
+          "lcb": -1.2524765288207407,
+          "gross_gain": 0.0,
+          "gross_loss": 13.948999999999998
+        },
+        "stress": {
+          "attempts": 18,
+          "filled": 3,
+          "fill_days": 2,
+          "net": -1.949,
+          "pf": 0.0,
+          "mean": -0.0928095238095238,
+          "lcb": -0.2733902557189981,
+          "gross_gain": 0.0,
+          "gross_loss": 1.9489999999999998
+        }
+      },
+      "validation_pass": false,
+      "score": -0.6642380952380952
+    },
+    {
+      "key": "patient-p95",
+      "style": "patient",
+      "threshold": -0.09019894855446477,
+      "quantile": 0.95,
+      "validation": {
+        "base": {
+          "attempts": 34,
+          "filled": 2,
+          "fill_days": 2,
+          "net": -3.911,
+          "pf": 0.0,
+          "mean": -0.18623809523809523,
+          "lcb": -0.596921489954932,
+          "gross_gain": 0.0,
+          "gross_loss": 3.911
+        },
+        "stress": {
+          "attempts": 12,
+          "filled": 1,
+          "fill_days": 1,
+          "net": -0.634,
+          "pf": 0.0,
+          "mean": -0.03019047619047619,
+          "lcb": -0.1101952380952381,
+          "gross_gain": 0.0,
+          "gross_loss": 0.634
+        }
+      },
+      "validation_pass": false,
+      "score": -0.18623809523809523
+    }
+  ],
+  "London-NY": [
+    {
+      "key": "shallow-p50",
+      "style": "shallow",
+      "threshold": -1.2001971441106785,
+      "quantile": 0.5,
+      "validation": {
+        "base": {
+          "attempts": 75,
+          "filled": 61,
+          "fill_days": 20,
+          "net": -122.662,
+          "pf": 0.080522,
+          "mean": -5.841047619047619,
+          "lcb": -8.47868490254681,
+          "gross_gain": 10.742,
+          "gross_loss": 133.40400000000005
+        },
+        "stress": {
+          "attempts": 13,
+          "filled": 9,
+          "fill_days": 4,
+          "net": -18.536,
+          "pf": 0.115607,
+          "mean": -0.8826666666666666,
+          "lcb": -2.0250236227444094,
+          "gross_gain": 2.423,
+          "gross_loss": 20.959000000000003
+        }
+      },
+      "validation_pass": false,
+      "score": -5.841047619047619
+    },
+    {
+      "key": "shallow-p80",
+      "style": "shallow",
+      "threshold": -1.005768293831452,
+      "quantile": 0.8,
+      "validation": {
+        "base": {
+          "attempts": 44,
+          "filled": 33,
+          "fill_days": 17,
+          "net": -57.842,
+          "pf": 0.069256,
+          "mean": -2.7543809523809526,
+          "lcb": -4.078923956485257,
+          "gross_gain": 4.304,
+          "gross_loss": 62.14599999999999
+        },
+        "stress": {
+          "attempts": 5,
+          "filled": 2,
+          "fill_days": 1,
+          "net": -6.788,
+          "pf": 0.0,
+          "mean": -0.32323809523809527,
+          "lcb": -1.1798190476190478,
+          "gross_gain": 0.0,
+          "gross_loss": 6.788
+        }
+      },
+      "validation_pass": false,
+      "score": -2.7543809523809526
+    },
+    {
+      "key": "shallow-p95",
+      "style": "shallow",
+      "threshold": -0.8475405037951624,
+      "quantile": 0.95,
+      "validation": {
+        "base": {
+          "attempts": 12,
+          "filled": 8,
+          "fill_days": 7,
+          "net": -14.902,
+          "pf": 0.0,
+          "mean": -0.7096190476190476,
+          "lcb": -1.4754474874367132,
+          "gross_gain": 0.0,
+          "gross_loss": 14.902000000000001
+        },
+        "stress": {
+          "attempts": 0,
+          "filled": 0,
+          "fill_days": 0,
+          "net": 0.0,
+          "pf": null,
+          "mean": 0.0,
+          "lcb": 0.0,
+          "gross_gain": 0.0,
+          "gross_loss": 0.0
+        }
+      },
+      "validation_pass": false,
+      "score": -0.7096190476190476
+    },
+    {
+      "key": "patient-p50",
+      "style": "patient",
+      "threshold": -0.38502845892737847,
+      "quantile": 0.5,
+      "validation": {
+        "base": {
+          "attempts": 78,
+          "filled": 23,
+          "fill_days": 14,
+          "net": -40.498,
+          "pf": 0.084522,
+          "mean": -1.9284761904761907,
+          "lcb": -3.332842203359486,
+          "gross_gain": 3.739,
+          "gross_loss": 44.23700000000001
+        },
+        "stress": {
+          "attempts": 16,
+          "filled": 4,
+          "fill_days": 3,
+          "net": -7.706,
+          "pf": 0.0,
+          "mean": -0.3669523809523809,
+          "lcb": -0.9704772022415566,
+          "gross_gain": 0.0,
+          "gross_loss": 7.7059999999999995
+        }
+      },
+      "validation_pass": false,
+      "score": -1.9284761904761907
+    },
+    {
+      "key": "patient-p80",
+      "style": "patient",
+      "threshold": -0.24522127241676764,
+      "quantile": 0.8,
+      "validation": {
+        "base": {
+          "attempts": 54,
+          "filled": 16,
+          "fill_days": 10,
+          "net": -22.98,
+          "pf": 0.018955,
+          "mean": -1.0942857142857143,
+          "lcb": -1.9662328667723727,
+          "gross_gain": 0.444,
+          "gross_loss": 23.424
+        },
+        "stress": {
+          "attempts": 11,
+          "filled": 5,
+          "fill_days": 3,
+          "net": -10.785,
+          "pf": 0.0,
+          "mean": -0.5135714285714286,
+          "lcb": -1.2719482558836046,
+          "gross_gain": 0.0,
+          "gross_loss": 10.785
+        }
+      },
+      "validation_pass": false,
+      "score": -1.0942857142857143
+    },
+    {
+      "key": "patient-p95",
+      "style": "patient",
+      "threshold": -0.12089203826822352,
+      "quantile": 0.95,
+      "validation": {
+        "base": {
+          "attempts": 16,
+          "filled": 5,
+          "fill_days": 4,
+          "net": -6.891,
+          "pf": 0.0,
+          "mean": -0.3281428571428571,
+          "lcb": -0.8156415268305589,
+          "gross_gain": 0.0,
+          "gross_loss": 6.891
+        },
+        "stress": {
+          "attempts": 3,
+          "filled": 0,
+          "fill_days": 0,
+          "net": 0.0,
+          "pf": null,
+          "mean": 0.0,
+          "lcb": 0.0,
+          "gross_gain": 0.0,
+          "gross_loss": 0.0
+        }
+      },
+      "validation_pass": false,
+      "score": -0.3281428571428571
+    }
+  ],
+  "New York": [
+    {
+      "key": "shallow-p50",
+      "style": "shallow",
+      "threshold": -1.2109971575547163,
+      "quantile": 0.5,
+      "validation": {
+        "base": {
+          "attempts": 84,
+          "filled": 61,
+          "fill_days": 21,
+          "net": -110.596,
+          "pf": 0.002399,
+          "mean": -5.26647619047619,
+          "lcb": -6.694648923051034,
+          "gross_gain": 0.266,
+          "gross_loss": 110.86199999999997
+        },
+        "stress": {
+          "attempts": 17,
+          "filled": 10,
+          "fill_days": 5,
+          "net": -26.994,
+          "pf": 0.0,
+          "mean": -1.2854285714285714,
+          "lcb": -2.941242173228745,
+          "gross_gain": 0.0,
+          "gross_loss": 26.994000000000007
+        }
+      },
+      "validation_pass": false,
+      "score": -5.26647619047619
+    },
+    {
+      "key": "shallow-p80",
+      "style": "shallow",
+      "threshold": -0.998399132834035,
+      "quantile": 0.8,
+      "validation": {
+        "base": {
+          "attempts": 68,
+          "filled": 43,
+          "fill_days": 19,
+          "net": -72.312,
+          "pf": 0.005939,
+          "mean": -3.4434285714285706,
+          "lcb": -4.9554599752232225,
+          "gross_gain": 0.432,
+          "gross_loss": 72.744
+        },
+        "stress": {
+          "attempts": 15,
+          "filled": 6,
+          "fill_days": 4,
+          "net": -12.721,
+          "pf": 0.0,
+          "mean": -0.6057619047619047,
+          "lcb": -1.4949277987220024,
+          "gross_gain": 0.0,
+          "gross_loss": 12.721
+        }
+      },
+      "validation_pass": false,
+      "score": -3.4434285714285706
+    },
+    {
+      "key": "shallow-p95",
+      "style": "shallow",
+      "threshold": -0.8209313567160973,
+      "quantile": 0.95,
+      "validation": {
+        "base": {
+          "attempts": 21,
+          "filled": 11,
+          "fill_days": 8,
+          "net": -13.106,
+          "pf": 0.03191,
+          "mean": -0.624095238095238,
+          "lcb": -1.410245412729256,
+          "gross_gain": 0.432,
+          "gross_loss": 13.538
+        },
+        "stress": {
+          "attempts": 6,
+          "filled": 2,
+          "fill_days": 1,
+          "net": -5.862,
+          "pf": 0.0,
+          "mean": -0.27914285714285714,
+          "lcb": -1.0188714285714284,
+          "gross_gain": 0.0,
+          "gross_loss": 5.862
+        }
+      },
+      "validation_pass": false,
+      "score": -0.624095238095238
+    },
+    {
+      "key": "patient-p50",
+      "style": "patient",
+      "threshold": -0.42970514554373507,
+      "quantile": 0.5,
+      "validation": {
+        "base": {
+          "attempts": 84,
+          "filled": 26,
+          "fill_days": 17,
+          "net": -22.353,
+          "pf": 0.089046,
+          "mean": -1.0644285714285717,
+          "lcb": -1.9301942064244382,
+          "gross_gain": 2.185,
+          "gross_loss": 24.538000000000004
+        },
+        "stress": {
+          "attempts": 17,
+          "filled": 5,
+          "fill_days": 2,
+          "net": -8.445,
+          "pf": 0.0,
+          "mean": -0.40214285714285714,
+          "lcb": -1.2298902451999707,
+          "gross_gain": 0.0,
+          "gross_loss": 8.445
+        }
+      },
+      "validation_pass": false,
+      "score": -1.0644285714285717
+    },
+    {
+      "key": "patient-p80",
+      "style": "patient",
+      "threshold": -0.2685776623024942,
+      "quantile": 0.8,
+      "validation": {
+        "base": {
+          "attempts": 79,
+          "filled": 22,
+          "fill_days": 16,
+          "net": -20.472,
+          "pf": 0.083289,
+          "mean": -0.9748571428571429,
+          "lcb": -1.682069474064373,
+          "gross_gain": 1.86,
+          "gross_loss": 22.332
+        },
+        "stress": {
+          "attempts": 17,
+          "filled": 3,
+          "fill_days": 2,
+          "net": -3.886,
+          "pf": 0.0,
+          "mean": -0.18504761904761904,
+          "lcb": -0.562819501708039,
+          "gross_gain": 0.0,
+          "gross_loss": 3.8859999999999997
+        }
+      },
+      "validation_pass": false,
+      "score": -0.9748571428571429
+    },
+    {
+      "key": "patient-p95",
+      "style": "patient",
+      "threshold": -0.1400832573420774,
+      "quantile": 0.95,
+      "validation": {
+        "base": {
+          "attempts": 33,
+          "filled": 4,
+          "fill_days": 4,
+          "net": -2.443,
+          "pf": 0.0,
+          "mean": -0.11633333333333333,
+          "lcb": -0.2624563034537952,
+          "gross_gain": 0.0,
+          "gross_loss": 2.443
+        },
+        "stress": {
+          "attempts": 9,
+          "filled": 1,
+          "fill_days": 1,
+          "net": -0.707,
+          "pf": 0.0,
+          "mean": -0.033666666666666664,
+          "lcb": -0.12288333333333334,
+          "gross_gain": 0.0,
+          "gross_loss": 0.707
+        }
+      },
+      "validation_pass": false,
+      "score": -0.11633333333333333
+    }
+  ],
+  "Sydney": [
+    {
+      "key": "shallow-p50",
+      "style": "shallow",
+      "threshold": -0.797224006560173,
+      "quantile": 0.5,
+      "validation": {
+        "base": {
+          "attempts": 62,
+          "filled": 29,
+          "fill_days": 16,
+          "net": -35.99,
+          "pf": 0.0,
+          "mean": -1.7138095238095237,
+          "lcb": -2.4841257523412494,
+          "gross_gain": 0.0,
+          "gross_loss": 35.989999999999995
+        },
+        "stress": {
+          "attempts": 17,
+          "filled": 7,
+          "fill_days": 5,
+          "net": -12.443,
+          "pf": 0.0,
+          "mean": -0.5925238095238096,
+          "lcb": -1.3587642153746038,
+          "gross_gain": 0.0,
+          "gross_loss": 12.443
+        }
+      },
+      "validation_pass": false,
+      "score": -1.7138095238095237
+    },
+    {
+      "key": "shallow-p80",
+      "style": "shallow",
+      "threshold": -0.5692225693616605,
+      "quantile": 0.8,
+      "validation": {
+        "base": {
+          "attempts": 34,
+          "filled": 19,
+          "fill_days": 10,
+          "net": -24.08,
+          "pf": 0.0,
+          "mean": -1.1466666666666665,
+          "lcb": -2.0322086826385726,
+          "gross_gain": 0.0,
+          "gross_loss": 24.08
+        },
+        "stress": {
+          "attempts": 12,
+          "filled": 5,
+          "fill_days": 3,
+          "net": -6.639,
+          "pf": 0.0,
+          "mean": -0.3161428571428571,
+          "lcb": -0.9263141852253436,
+          "gross_gain": 0.0,
+          "gross_loss": 6.639
+        }
+      },
+      "validation_pass": false,
+      "score": -1.1466666666666665
+    },
+    {
+      "key": "shallow-p95",
+      "style": "shallow",
+      "threshold": -0.3628338144846927,
+      "quantile": 0.95,
+      "validation": {
+        "base": {
+          "attempts": 8,
+          "filled": 2,
+          "fill_days": 2,
+          "net": -1.974,
+          "pf": 0.0,
+          "mean": -0.094,
+          "lcb": -0.27004344837080907,
+          "gross_gain": 0.0,
+          "gross_loss": 1.974
+        },
+        "stress": {
+          "attempts": 3,
+          "filled": 2,
+          "fill_days": 1,
+          "net": -1.807,
+          "pf": 0.0,
+          "mean": -0.08604761904761904,
+          "lcb": -0.3140738095238095,
+          "gross_gain": 0.0,
+          "gross_loss": 1.807
+        }
+      },
+      "validation_pass": false,
+      "score": -0.094
+    },
+    {
+      "key": "patient-p50",
+      "style": "patient",
+      "threshold": -0.24049575949459825,
+      "quantile": 0.5,
+      "validation": {
+        "base": {
+          "attempts": 55,
+          "filled": 3,
+          "fill_days": 2,
+          "net": -5.461,
+          "pf": 0.0,
+          "mean": -0.2600476190476191,
+          "lcb": -0.8028889306139773,
+          "gross_gain": 0.0,
+          "gross_loss": 5.461
+        },
+        "stress": {
+          "attempts": 15,
+          "filled": 1,
+          "fill_days": 1,
+          "net": -4.39,
+          "pf": 0.0,
+          "mean": -0.20904761904761904,
+          "lcb": -0.7630238095238094,
+          "gross_gain": 0.0,
+          "gross_loss": 4.39
+        }
+      },
+      "validation_pass": false,
+      "score": -0.2600476190476191
+    },
+    {
+      "key": "patient-p80",
+      "style": "patient",
+      "threshold": -0.05353283814994872,
+      "quantile": 0.8,
+      "validation": {
+        "base": {
+          "attempts": 13,
+          "filled": 2,
+          "fill_days": 2,
+          "net": 2.602,
+          "pf": 2.594363,
+          "mean": 0.12390476190476192,
+          "lcb": -0.4582310504939408,
+          "gross_gain": 4.234,
+          "gross_loss": 1.632
+        },
+        "stress": {
+          "attempts": 5,
+          "filled": 1,
+          "fill_days": 1,
+          "net": -4.39,
+          "pf": 0.0,
+          "mean": -0.20904761904761904,
+          "lcb": -0.7630238095238094,
+          "gross_gain": 0.0,
+          "gross_loss": 4.39
+        }
+      },
+      "validation_pass": false,
+      "score": -0.20904761904761904
+    },
+    {
+      "key": "patient-p95",
+      "style": "patient",
+      "threshold": 0.0686091348324713,
+      "quantile": 0.95,
+      "validation": {
+        "base": {
+          "attempts": 2,
+          "filled": 0,
+          "fill_days": 0,
+          "net": 0.0,
+          "pf": null,
+          "mean": 0.0,
+          "lcb": 0.0,
+          "gross_gain": 0.0,
+          "gross_loss": 0.0
+        },
+        "stress": {
+          "attempts": 2,
+          "filled": 1,
+          "fill_days": 1,
+          "net": -4.39,
+          "pf": 0.0,
+          "mean": -0.20904761904761904,
+          "lcb": -0.7630238095238094,
+          "gross_gain": 0.0,
+          "gross_loss": 4.39
+        }
+      },
+      "validation_pass": false,
+      "score": -0.20904761904761904
+    }
+  ]
+}

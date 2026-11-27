@@ -1,0 +1,473 @@
+{
+  "schema": "pulsefive-session-ridge-1",
+  "features": [
+    "range_ratio",
+    "activity",
+    "directional_efficiency",
+    "move_over_spread",
+    "spread_over_range",
+    "base_range",
+    "candle_progress",
+    "direction"
+  ],
+  "training": "June\u2013July 2026; base execution, zero for admitted nonfills",
+  "validation": "August 2026",
+  "sessions": {
+    "Asia": {
+      "key": "patient-p95",
+      "fit": {
+        "mean": [
+          0.9469424224943193,
+          1.0948587338256284,
+          0.683801675175323,
+          1.5254610156880755,
+          0.1539203034352778,
+          1.009147421701746,
+          0.5169529469548134,
+          -0.026522593320235755
+        ],
+        "scale": [
+          0.09820393754499418,
+          0.22438014620676597,
+          0.1684618697034624,
+          0.4090168617795009,
+          0.042855661370566456,
+          0.1731626942029652,
+          0.2150072370529622,
+          0.9996482141451408
+        ],
+        "coef": [
+          0.030235066102950254,
+          0.00978081966917533,
+          0.002365373528420214,
+          -0.26151939765645993,
+          -0.11043424479602439,
+          -0.050788157722554676,
+          0.028073517824988684,
+          0.05263768855178001
+        ],
+        "intercept": -0.5034292730844794,
+        "n": 2036
+      },
+      "style": "patient",
+      "threshold": -0.10109667454236727,
+      "quantile": 0.95,
+      "validation": {
+        "base": {
+          "attempts": 43,
+          "filled": 3,
+          "fill_days": 3,
+          "net": 0.171,
+          "pf": 1.275806,
+          "mean": 0.008142857142857144,
+          "lcb": -0.11789194278365922,
+          "gross_gain": 0.791,
+          "gross_loss": 0.62
+        },
+        "stress": {
+          "attempts": 14,
+          "filled": 1,
+          "fill_days": 1,
+          "net": 0.038,
+          "pf": null,
+          "mean": 0.0018095238095238095,
+          "lcb": -0.0029857142857142843,
+          "gross_gain": 0.038,
+          "gross_loss": 0.0
+        }
+      },
+      "validation_pass": false,
+      "score": 0.0018095238095238095,
+      "approved": false,
+      "reason": "failed August and September; paper abstains",
+      "confirmation": {
+        "base": {
+          "attempts": 52,
+          "filled": 5,
+          "full": 1,
+          "net": -0.492,
+          "wins": 1,
+          "realized_target": 1,
+          "pf": 0.8662,
+          "fill_days": 5
+        },
+        "stress": {
+          "attempts": 8,
+          "filled": 2,
+          "full": 2,
+          "net": -8.278,
+          "wins": 0,
+          "realized_target": 0,
+          "pf": 0.0,
+          "fill_days": 2
+        }
+      },
+      "confirmation_pass": false
+    },
+    "London": {
+      "key": "patient-p95",
+      "fit": {
+        "mean": [
+          0.9388507439690987,
+          1.08850755958359,
+          0.7172137733930486,
+          1.4648646070987248,
+          0.16390184291377144,
+          0.9608980679120399,
+          0.5477159210249947,
+          -0.006931316950220542
+        ],
+        "scale": [
+          0.07894990285003313,
+          0.21937259015500832,
+          0.1705556128175154,
+          0.41194822447783513,
+          0.039401501990429195,
+          0.15670899730289292,
+          0.20325932529136156,
+          0.9999759781341429
+        ],
+        "coef": [
+          -0.004931054693680401,
+          -0.011563650156775929,
+          0.0037710869366162363,
+          -0.23087203822375377,
+          -0.05044239496557148,
+          0.0013109864502002914,
+          0.023894714257761532,
+          0.04551287622207384
+        ],
+        "intercept": -0.44881852551984885,
+        "n": 1587
+      },
+      "style": "patient",
+      "threshold": -0.09019894855446477,
+      "quantile": 0.95,
+      "validation": {
+        "base": {
+          "attempts": 34,
+          "filled": 2,
+          "fill_days": 2,
+          "net": -3.911,
+          "pf": 0.0,
+          "mean": -0.18623809523809523,
+          "lcb": -0.596921489954932,
+          "gross_gain": 0.0,
+          "gross_loss": 3.911
+        },
+        "stress": {
+          "attempts": 12,
+          "filled": 1,
+          "fill_days": 1,
+          "net": -0.634,
+          "pf": 0.0,
+          "mean": -0.03019047619047619,
+          "lcb": -0.1101952380952381,
+          "gross_gain": 0.0,
+          "gross_loss": 0.634
+        }
+      },
+      "validation_pass": false,
+      "score": -0.18623809523809523,
+      "approved": false,
+      "reason": "failed August and September; paper abstains",
+      "confirmation": {
+        "base": {
+          "attempts": 31,
+          "filled": 2,
+          "full": 1,
+          "net": -3.621,
+          "wins": 0,
+          "realized_target": 0,
+          "pf": 0.0,
+          "fill_days": 2
+        },
+        "stress": {
+          "attempts": 6,
+          "filled": 0,
+          "full": 0,
+          "net": 0.0,
+          "wins": 0,
+          "realized_target": 0,
+          "pf": null,
+          "fill_days": 0
+        }
+      },
+      "confirmation_pass": false
+    },
+    "London-NY": {
+      "key": "patient-p95",
+      "fit": {
+        "mean": [
+          0.957853021785374,
+          1.0765562365613734,
+          0.638903024364555,
+          1.644322575561609,
+          0.12401483444008271,
+          1.1382011331702002,
+          0.5330193854748603,
+          -0.0033519553072625698
+        ],
+        "scale": [
+          0.12115954809761104,
+          0.22325069614491796,
+          0.151429588492124,
+          0.40893022088500935,
+          0.030448823194278902,
+          0.15391812405162406,
+          0.20188003769146273,
+          0.9999943821820292
+        ],
+        "coef": [
+          0.040343572392857456,
+          -0.007266841770462211,
+          0.07014795433824018,
+          -0.200198775907279,
+          -0.057183483324662984,
+          0.06724291738920583,
+          -0.05289796490213787,
+          0.03674685794149884
+        ],
+        "intercept": -0.3906111731843575,
+        "n": 895
+      },
+      "style": "patient",
+      "threshold": -0.12089203826822352,
+      "quantile": 0.95,
+      "validation": {
+        "base": {
+          "attempts": 16,
+          "filled": 5,
+          "fill_days": 4,
+          "net": -6.891,
+          "pf": 0.0,
+          "mean": -0.3281428571428571,
+          "lcb": -0.8156415268305589,
+          "gross_gain": 0.0,
+          "gross_loss": 6.891
+        },
+        "stress": {
+          "attempts": 3,
+          "filled": 0,
+          "fill_days": 0,
+          "net": 0.0,
+          "pf": null,
+          "mean": 0.0,
+          "lcb": 0.0,
+          "gross_gain": 0.0,
+          "gross_loss": 0.0
+        }
+      },
+      "validation_pass": false,
+      "score": -0.3281428571428571,
+      "approved": false,
+      "reason": "failed August and September; paper abstains",
+      "confirmation": {
+        "base": {
+          "attempts": 21,
+          "filled": 2,
+          "full": 1,
+          "net": -3.31,
+          "wins": 0,
+          "realized_target": 0,
+          "pf": 0.0,
+          "fill_days": 2
+        },
+        "stress": {
+          "attempts": 9,
+          "filled": 0,
+          "full": 0,
+          "net": 0.0,
+          "wins": 0,
+          "realized_target": 0,
+          "pf": null,
+          "fill_days": 0
+        }
+      },
+      "confirmation_pass": false
+    },
+    "New York": {
+      "key": "patient-p95",
+      "fit": {
+        "mean": [
+          0.95182034587247,
+          1.0842713972511364,
+          0.7229912158958232,
+          1.4166379505992712,
+          0.18498923476779203,
+          0.8968497563145885,
+          0.521960823373174,
+          -0.04223107569721116
+        ],
+        "scale": [
+          0.11840132279834929,
+          0.22786711946166524,
+          0.18219691322193915,
+          0.42511937828518204,
+          0.05399976033398495,
+          0.17743645001862354,
+          0.20873855486844084,
+          0.9991078701749158
+        ],
+        "coef": [
+          -0.08195037127952612,
+          -0.029814962456104727,
+          0.01669105058588634,
+          -0.21033362669697434,
+          -0.01982114024227705,
+          0.055759634237916154,
+          0.03976047962784127,
+          0.005544672540866074
+        ],
+        "intercept": -0.47377370517928286,
+        "n": 1255
+      },
+      "style": "patient",
+      "threshold": -0.1400832573420774,
+      "quantile": 0.95,
+      "validation": {
+        "base": {
+          "attempts": 33,
+          "filled": 4,
+          "fill_days": 4,
+          "net": -2.443,
+          "pf": 0.0,
+          "mean": -0.11633333333333333,
+          "lcb": -0.2624563034537952,
+          "gross_gain": 0.0,
+          "gross_loss": 2.443
+        },
+        "stress": {
+          "attempts": 9,
+          "filled": 1,
+          "fill_days": 1,
+          "net": -0.707,
+          "pf": 0.0,
+          "mean": -0.033666666666666664,
+          "lcb": -0.12288333333333334,
+          "gross_gain": 0.0,
+          "gross_loss": 0.707
+        }
+      },
+      "validation_pass": false,
+      "score": -0.11633333333333333,
+      "approved": false,
+      "reason": "failed August and September; paper abstains",
+      "confirmation": {
+        "base": {
+          "attempts": 41,
+          "filled": 5,
+          "full": 0,
+          "net": -1.549,
+          "wins": 1,
+          "realized_target": 0,
+          "pf": 0.1522,
+          "fill_days": 5
+        },
+        "stress": {
+          "attempts": 16,
+          "filled": 2,
+          "full": 0,
+          "net": -2.265,
+          "wins": 0,
+          "realized_target": 0,
+          "pf": 0.0,
+          "fill_days": 2
+        }
+      },
+      "confirmation_pass": false
+    },
+    "Sydney": {
+      "key": "shallow-p95",
+      "fit": {
+        "mean": [
+          0.9452286268256839,
+          1.1917244000312495,
+          0.8019379604681546,
+          1.355181922211296,
+          0.19560724098976226,
+          0.8794074061607657,
+          0.49688386524822686,
+          0.02127659574468085
+        ],
+        "scale": [
+          0.09172126326146401,
+          0.24898437847045804,
+          0.1902331162204698,
+          0.44415410295809066,
+          0.06339842725037775,
+          0.1920841184001868,
+          0.20781199279303839,
+          0.9997736276145301
+        ],
+        "coef": [
+          -0.054574736970090874,
+          -0.059323855670152074,
+          0.06501842117828904,
+          -0.21140645325817578,
+          0.09205650113911873,
+          0.11416474570281514,
+          -0.13348460539019325,
+          0.04834020402230796
+        ],
+        "intercept": -0.7987234042553192,
+        "n": 282
+      },
+      "style": "shallow",
+      "threshold": -0.3628338144846927,
+      "quantile": 0.95,
+      "validation": {
+        "base": {
+          "attempts": 8,
+          "filled": 2,
+          "fill_days": 2,
+          "net": -1.974,
+          "pf": 0.0,
+          "mean": -0.094,
+          "lcb": -0.27004344837080907,
+          "gross_gain": 0.0,
+          "gross_loss": 1.974
+        },
+        "stress": {
+          "attempts": 3,
+          "filled": 2,
+          "fill_days": 1,
+          "net": -1.807,
+          "pf": 0.0,
+          "mean": -0.08604761904761904,
+          "lcb": -0.3140738095238095,
+          "gross_gain": 0.0,
+          "gross_loss": 1.807
+        }
+      },
+      "validation_pass": false,
+      "score": -0.094,
+      "approved": false,
+      "reason": "failed August and September; paper abstains",
+      "confirmation": {
+        "base": {
+          "attempts": 8,
+          "filled": 3,
+          "full": 0,
+          "net": -2.592,
+          "wins": 0,
+          "realized_target": 0,
+          "pf": 0.0,
+          "fill_days": 3
+        },
+        "stress": {
+          "attempts": 2,
+          "filled": 1,
+          "full": 0,
+          "net": -0.793,
+          "wins": 0,
+          "realized_target": 0,
+          "pf": 0.0,
+          "fill_days": 1
+        }
+      },
+      "confirmation_pass": false
+    }
+  },
+  "confirmation": "September 2026; challenger on a continuous $1,000 account, veto only"
+}
